@@ -1,0 +1,57 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<link rel="icon" href="{{ '/static/icon.jpg'|asseturl }}">
+<title>{% block title %}Welcome{% endblock %} — Tupichok</title>
+<body>
+  <header>
+    <h1>Тупич0к</h1>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <!-- navbar items, navbar burger... -->
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <!-- navbar start, navbar end -->
+        <ul class="nav navbar-nav">
+          <li{% if this._path == '/' %} class="active"{% endif
+            %}><a href="{{ '/'|url }}">Приветствие</a></li>
+          {% for href, title in [
+            ['/blog', 'Блог'],
+            ['/projects', 'Работы'],
+            ['/about', 'Обо мне']
+          ] %}
+            <li{% if this.is_child_of(href) %} class="active"{% endif
+              %}><a href="{{ href|url }}">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+    <!--<nav class="navbar" role="navigation" aria-label="main navigation">
+      <ul class="nav navbar-nav">
+        <li{% if this._path == '/' %} class="active"{% endif
+          %}><a href="{{ '/'|url }}">Приветствие</a></li>
+        {% for href, title in [
+          ['/blog', 'Блог'],
+          ['/projects', 'Работы'],
+          ['/about', 'Обо мне']
+        ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif
+            %}><a href="{{ href|url }}">{{ title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav> -->
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    &copy; Copyright 2022 by Egor Sobinin.
+  </footer>
+</body>
