@@ -1,0 +1,55 @@
+% "Лабораторная работа"
+ 
+\documentclass[a4paper,12pt]{article} % тип документа
+% report, book
+%  Русский язык 
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+\usepackage{wasysym}
+
+%Заговолок
+\author{Егор Собинин, 1 группа 2 подгруппа}
+\title{Инвариантная самостоятельная работа}
+\date{\today}
+\begin{document} % начало документа
+\maketitle
+\newpage
+\section{Составьте таблицу команд для набора матриц в LaTex}
+\hspace{6mm}\begin{tabular}{|l||l||l|}
+\hline
+ № & Название & Вид\\
+ \hline\hline
+ 1 & Матрица без скобок & $\begin{matrix} \alpha& \beta^{*}\\ \gamma^{*}& \delta \end{matrix}$\\
+ \hline
+ 2 & Квадратными скобками & $\begin{bmatrix} \alpha& \beta^{*}\\ \gamma^{*}& \delta \end{bmatrix}$\\
+ \hline
+ 3 & Фигурные скобки & $\begin{Bmatrix} \alpha& \beta^{*}\\ \gamma^{*}& \delta \end{Bmatrix}$\\
+ \hline
+ 4 & Круглые скобки & $\begin{pmatrix} \alpha& \beta^{*}\\ \gamma^{*}& \delta \end{pmatrix}$\\
+ \hline
+ 5 & Одинарный модуль & $\begin{vmatrix} \alpha& \beta^{*}\\ \gamma^{*}& \delta \end{vmatrix}$\\
+ \hline
+ 6 & Двойной модуль (норма) & $\begin{Vmatrix} \alpha& \beta^{*}\\ \gamma^{*}& \delta \end{Vmatrix}$\\
+ \hline
+ \end{tabular}
+ 
+\begin{tabular}{|l||l||l|}
+\hline
+№ & Название & Вид\\
+ \hline\hline
+ 1 & Открытие & \verb|\begin{matrix}|\\
+ 2 & закрытие & \verb|\end{matrix}|\\
+ 3 & разделитель & \verb|&|\\
+ 4 & без скобок & \verb|matrix|\\
+ 5 & квадратные скобки & \verb|bmatrix|\\
+ 6 & фигурные скобки & \verb|Bmatrix|\\
+ 7 & круглые скобки & \verb|pmatrix|\\
+ 8 & одинарный модуль & \verb|vmatrix|\\
+ 9 & двойной модуль & \verb|Vmatrix|\\
+ \hline
+\end{tabular}
+\end{document}

@@ -1,0 +1,48 @@
+% "Лабораторная работа"
+ 
+\documentclass[a4paper,12pt]{article} % тип документа
+% report, book
+%  Русский язык 
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+\usepackage{wasysym}
+
+%Заговолок
+\author{Егор Собинин, 1 группа 2 подгруппа}
+\title{Инвариантная самостоятельная работа 5. Команды создания текста.}
+\date{\today}
+
+\begin{document} % начало документа
+\maketitle
+\newpage
+\section{Основные команды}
+\begin{enumerate} 
+\item \verb|\documentclass| - описывает класс документа, статья, книга, отчет и так далее;
+\item \verb|\begin|- указывает на начало тела документа или блока;
+\item \verb|\end| - завершение документа или блока;
+\item \verb|\usepackage| - загружает пакет команд LaTeX в текущий документ, нужно для настройки кодировки, шрифта и другого;
+\item \verb|\maketitle| - создает титульный лист с названием и всем прочим;
+\item \verb|\tableofcontents| - содержание статьи или книги;
+\item \verb|\chapter| - создает главу;
+\item \verb|\section| - создает раздел;
+\item \verb|\subsection| - создает подраздел;
+\item \verb|\bfseries| - жирный текст;
+\item \verb|\textit| - курсив;
+\item \verb|\title| - заголовок документа;
+\item \verb|\author| - автор документа;
+\item \verb|\date| - дата создания документа.
+\end{enumerate}
+\section{Основы форматирования}
+\hspace{10mm}Каждый документ LaTeX имеет определенную структуру, вначале идут настройки отображения, имортирование нужных пакетов, а уже потом сам текст в теле документа. Вот эти строки инициализируют основные параметры:
+\begin{enumerate}
+\item \verb|\documentclass[a4paper,11pt]{book}|
+\item \verb|\usepackage{amsmath,amsthm,amssymb}|
+\item \verb|\usepackage[T1,T2A]{fontenc}|
+\item \verb|\usepackage[utf8]{inputenc}|
+\item \verb|\usepackage[english,russian]{babel}|
+\end{enumerate}
+\end {document}

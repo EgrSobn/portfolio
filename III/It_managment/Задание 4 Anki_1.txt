@@ -1,0 +1,20 @@
+"is Microsoft's first server-side scripting language and engine for dynamic web pages."	ASP	
+is an iterative design process in which designers focus on the users and their needs in each phase of the design process.	<em>User</em>-<em>centered design</em>	
+... is a classification system in which end users apply public tags to online items, typically to make those items easier for themselves	<h2><strong>folksonomy</strong></h2>	
+An <i>...&nbsp;</i>is a type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised learning).	autoencoder	
+... is&nbsp;<em>an iterative approach to project management and software development</em>&nbsp;that helps teams deliver value to their customers faster and with fewer headaches.	<strong>Agile Software Development</strong>	
+"... is a typically covert method of bypassing normal authentication or encryption in a computer, product, embedded device (e.g. a home router), or its embodiment (e.g. part of a cryptosystem, algorithm, chipset, or even a ""homunculus computer"" —a tiny computer-within-a-computer such as that found in Intel's AMT technology)."	<strong>Backdoor&nbsp;</strong>	
+... in electrical engineering, computer science, and information theory, is the tight upper bound on the rate at which information can be reliably transmitted over a communication channel.	Bandwidth	
+... occurs when there is not transparency into data use, and users or other parties experience mysterious data quantification	<strong>Data Bleed</strong>	
+... is the act of publicly providing personally identifiable information about an individual or organization	Doxing	
+is the process of encoding information.	<strong>Encryption&nbsp;</strong>	
+algorithms are a class of adaptive filter&nbsp;used to mimic a desired filter by finding the filter coefficients that relate to producing the least mean square of the error signal&nbsp;	<h1>Least mean squares filter</h1>	
+... is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords.	OAuth	
+<strong>Spoofing&nbsp;</strong>	is&nbsp;<b>when a caller deliberately falsifies the information transmitted to your caller ID display to disguise their identity</b>.	
+is&nbsp;<em>a security standard for computing devices equipped with wireless internet connections</em>.	WPA	
+is a set of web development techniques that uses various web technologies on the client-side to create asynchronous web applications.	<strong>AJAX&nbsp;</strong>	
+...&nbsp;is a directory service developed by Microsoft for Windows domain networks.	<strong>Active Directory</strong>	
+is an interface standard for a serial bus for high-speed communications and isochronous real-time data transfer.	<strong>Firewire&nbsp;</strong>	
+... is a free and open-source Unix-like operating system descended from the Berkeley Software Distribution	<strong>FreeBSD&nbsp;</strong>	
+is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.	<strong>Firewall</strong>&nbsp;	
+...is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network.	FTP	

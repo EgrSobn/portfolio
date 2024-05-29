@@ -1,0 +1,20 @@
+"is Microsoft's first server-side scripting language and engine for dynamic web pages."	ASP
+is an iterative design process in which designers focus on the users and their needs in each phase of the design process.	User-centered design
+... is a classification system in which end users apply public tags to online items, typically to make those items easier for themselves	folksonomy
+An ... is a type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised learning).	autoencoder
+... is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches.	Agile Software Development
+"... is a typically covert method of bypassing normal authentication or encryption in a computer, product, embedded device (e.g. a home router), or its embodiment (e.g. part of a cryptosystem, algorithm, chipset, or even a ""homunculus computer"" —a tiny computer-within-a-computer such as that found in Intel's AMT technology)."	Backdoor
+... in electrical engineering, computer science, and information theory, is the tight upper bound on the rate at which information can be reliably transmitted over a communication channel.	Bandwidth
+... occurs when there is not transparency into data use, and users or other parties experience mysterious data quantification	Data Bleed
+... is the act of publicly providing personally identifiable information about an individual or organization	Doxing
+is the process of encoding information.	Encryption
+algorithms are a class of adaptive filter used to mimic a desired filter by finding the filter coefficients that relate to producing the least mean square of the error signal	Least mean squares filter
+... is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords.	OAuth
+Spoofing	is when a caller deliberately falsifies the information transmitted to your caller ID display to disguise their identity.
+is a security standard for computing devices equipped with wireless internet connections.	WPA
+is a set of web development techniques that uses various web technologies on the client-side to create asynchronous web applications.	AJAX
+... is a directory service developed by Microsoft for Windows domain networks.	Active Directory
+is an interface standard for a serial bus for high-speed communications and isochronous real-time data transfer.	Firewire
+... is a free and open-source Unix-like operating system descended from the Berkeley Software Distribution	FreeBSD
+is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.	Firewall
+...is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network.	FTP

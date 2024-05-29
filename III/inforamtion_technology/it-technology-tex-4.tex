@@ -1,0 +1,61 @@
+% "Лабораторная работа"
+ 
+\documentclass[a4paper,12pt]{article} % тип документа
+% report, book
+%  Русский язык 
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+\usepackage{wasysym}
+
+%Заговолок
+\author{Егор Собинин, 1 группа 2 подгруппа}
+\title{Инвариантная самостоятельная работа 6}
+\date{\today}
+\begin{document} % начало документа
+\maketitle
+\newpage
+\section{Вопросы}
+
+\hspace{5mm}\emph{Какая основная цель написания текста?} - передать читателю идеи, информацию или знания.
+
+\emph{Каким способом можно поставить троеточие?} - \verb|\ldots|
+
+\emph{Как сделать разрыв страницы?} - \verb|\newpage|
+
+\emph{Как указать текущую дату на текущем языке} - \verb|\today|
+
+\emph{Как указать знак $\sim$} - \verb|$\sim$|
+
+\emph{Как подключить португальский язык?} - \verb|\usepackage[portuguese]{babel}|
+
+\emph{Как указать заголовок 1 уровня?} - \verb|\section{}|
+
+\emph{Как указать заголовок 2 уровня?} - \verb|\subsection|
+
+\emph{Как сделать титульный лист} - \verb|\maketitle|
+
+\emph{Как сделать сноску} - \verb|\footnote{}|
+
+\section{Таблица}
+
+\begin{tabular}{l||l||cc}
+ \hline
+ № & Название & Команда\\
+ \hline\hline
+ 1 & разрыв страницы & \verb|\newpage|\\
+ 2 & знак $\sim$ & \verb|$\sim$|\\
+ 3 & троеточие & \verb|\ldots|\\
+ 4 & титульный лист & \verb|\maketitle|\\
+ 5 & заголовок 1 уровня & \verb|\section{}|\\
+ 6 & заголовок 2 уровня & \verb|\subsection|\\
+ 7 & сноска & \verb|\footnote{}|\\
+ 8 & ссылка & \verb|\url{}|\\
+ 9 & выделение слова & \verb|\emph{}|\\
+ 10 & размещение по центру & \verb|\begin{center}\end{center}|
+ \end{tabular}
+
+\end{document}
